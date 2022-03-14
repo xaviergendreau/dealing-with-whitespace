@@ -13,10 +13,9 @@ body {
 }
 
 article {
-  font-family: "Crimson Pro", serif;
+  font-family: "Crimson Text", serif;
   font-weight: normal;
   color: #222;
-  font-size: 1.125rem;
 }
 article header {
   padding-top: 1rem;
@@ -54,7 +53,7 @@ article ol {
 
 blockquote {
   color: #555;
-  font-size: 1.125;
+  font-size: 1.125rem;
   padding-right: 1rem;
   padding-left: 1rem;
 }

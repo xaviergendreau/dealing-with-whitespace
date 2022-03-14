@@ -39,6 +39,7 @@ article header p {
 }
 
 article p {
+  font-size: 1.125rem;
   padding-top: .15em;
   padding-bottom: .15em;
 }

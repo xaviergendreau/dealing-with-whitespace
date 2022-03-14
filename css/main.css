@@ -20,7 +20,7 @@ article {
 
 article header {
   padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-bottom: 1.5rem;
   border-bottom: 1px solid #555;
 }
 
@@ -39,8 +39,8 @@ article header p {
 }
 
 article p {
-  padding-top: .3em;
-  padding-bottom: .3em;
+  padding-top: .15em;
+  padding-bottom: .15em;
 }
 
 article p:nth-child(8) {

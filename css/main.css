@@ -9,23 +9,52 @@ html {
 }
 
 body {
-  font-family: "Crimson Pro", serif;
-  font-weight: normal;
-  color: #555;
+  margin: 1em;
 }
 
-h1 {
+article {
+  font-family: "Crimson Pro", serif;
+  font-weight: normal;
+  color: #222;
+  margin: 1.125rem;
+}
+
+article h1 {
+  border: 0rem;
+  padding: 0rem;
+  margin: 0rem;
   font-weight: normal;
   font-size: 1.5rem;
   color: #222;
 }
 
-header > p {
+article header > p {
   font-style: italic;
+  border: 0rem;
+  padding: 0rem;
+  margin: 0rem;
+  border-bottom: 1px solid #222;
+}
+
+article p{
+  padding-top: .3em;
+  padding-bottom: .3em;
+}
+
+article p:nth-child(8) {
+  border-bottom: 1px solid #222;
+}
+
+article ol {
+
 }
 
 blockquote {
-  color: #999;
+  color: #555;
   padding-right: 1rem;
   padding-left: 1rem;
+}
+
+.quote {
+  color: #999;
 }

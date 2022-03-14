@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  margin: 1rem;
+  margin: .3rem;
 }
 
 article {
@@ -17,6 +17,7 @@ article {
   font-weight: normal;
   color: #222;
 }
+
 article header {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -27,12 +28,14 @@ article h1 {
   font-weight: normal;
   font-size: 1.5rem;
   color: #222;
+
   /* margin: 0rem; */
   /* padding: 0rem; */
 }
 
 article header p {
   font-style: italic;
+
   /* margin: 0rem; */
   /* padding: 0rem; */
 }
@@ -48,7 +51,7 @@ article p:nth-child(8) {
 }
 
 article ol {
-    padding-left: 1em;
+  padding-left: 1em;
 }
 
 blockquote {

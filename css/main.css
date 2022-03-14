@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  margin: 1rem;
+  margin: .7rem;
 }
 
 article {
@@ -55,8 +55,8 @@ article ol {
 blockquote {
   color: #555;
   font-size: 1.125rem;
-  padding-right: 1rem;
-  padding-left: 1rem;
+  padding-right: .5rem;
+  padding-left: .5rem;
 }
 
 .quote {

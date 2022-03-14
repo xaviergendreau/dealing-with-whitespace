@@ -9,44 +9,46 @@ html {
 }
 
 body {
-  margin: 1em;
+  margin: 1rem;
 }
 
 article {
   font-family: "Crimson Pro", serif;
   font-weight: normal;
   color: #222;
-  margin: 1.125rem;
+}
+article header {
+  padding-top: 1.125rem;
+  padding-bottom: 1.125rem;
+  border-bottom: 1px solid #222;
 }
 
 article h1 {
-  border: 0rem;
-  padding: 0rem;
-  margin: 0rem;
   font-weight: normal;
   font-size: 1.5rem;
   color: #222;
+  margin: 0rem;
+  padding: 0rem;
 }
 
 article header > p {
   font-style: italic;
-  border: 0rem;
-  padding: 0rem;
   margin: 0rem;
-  border-bottom: 1px solid #222;
+  padding: 0rem;
 }
 
-article p{
+article p {
   padding-top: .3em;
   padding-bottom: .3em;
 }
 
 article p:nth-child(8) {
   border-bottom: 1px solid #222;
+  padding-bottom: 1.125rem;
 }
 
 article ol {
-
+    padding-left: 1rem;
 }
 
 blockquote {

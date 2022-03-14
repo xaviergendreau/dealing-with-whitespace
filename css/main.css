@@ -16,25 +16,26 @@ article {
   font-family: "Crimson Pro", serif;
   font-weight: normal;
   color: #222;
+  font-size: 1.125rem;
 }
 article header {
-  padding-top: 1.125rem;
-  padding-bottom: 1.125rem;
-  border-bottom: 1px solid #222;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #555;
 }
 
 article h1 {
   font-weight: normal;
   font-size: 1.5rem;
   color: #222;
-  margin: 0rem;
-  padding: 0rem;
+  /* margin: 0rem; */
+  /* padding: 0rem; */
 }
 
-article header > p {
+article header p {
   font-style: italic;
-  margin: 0rem;
-  padding: 0rem;
+  /* margin: 0rem; */
+  /* padding: 0rem; */
 }
 
 article p {
@@ -43,16 +44,17 @@ article p {
 }
 
 article p:nth-child(8) {
-  border-bottom: 1px solid #222;
+  border-bottom: 1px solid #555;
   padding-bottom: 1.125rem;
 }
 
 article ol {
-    padding-left: 1rem;
+    padding-left: 1em;
 }
 
 blockquote {
   color: #555;
+  font-size: 1.125;
   padding-right: 1rem;
   padding-left: 1rem;
 }

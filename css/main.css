@@ -31,8 +31,7 @@ article h1 {
 
 article header p {
   font-style: italic;
-  margin: 0rem;
-  padding: 0rem;
+  margin: 0;
 }
 
 article p {
